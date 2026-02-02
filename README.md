@@ -20,13 +20,30 @@ A minimal **REST API** example built with **Node.js** and **Express** to demonst
 | DELETE | `/api/items/:id`| Delete an item                 |
 
 ## 🛠️ Tech Stack
-
 - Node.js  
-- Express  
-
+- Express
 ## 📁 Project Structure
 
-See below for recommended structure.
+```
+Simple-REST-API/
+├── .gitignore
+├── package.json
+├── package-lock.json
+├── README.md
+├── /src
+│ ├── app.js
+│ ├── /routes
+│ │ └── items.js
+│ ├── /controllers
+│ │ └── itemsController.js
+│ ├── /models
+│ │ └── itemModel.js
+│ └── /data
+│ └── items.json # (optional mock DB)
+├── /tests
+│ └── items.test.js
+└── .env
+```
 
 ## 💻 Installation
 
