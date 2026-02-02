@@ -25,24 +25,27 @@ A minimal **REST API** example built with **Node.js** and **Express** to demonst
 ## 📁 Project Structure
 
 ```
-Simple-REST-API/
-├── .gitignore
-├── package.json
-├── package-lock.json
-├── README.md
-├── /src
-│ ├── app.js
-│ ├── /routes
-│ │ └── items.js
-│ ├── /controllers
-│ │ └── itemsController.js
-│ ├── /models
-│ │ └── itemModel.js
-│ └── /data
-│ └── items.json # (optional mock DB)
-├── /tests
-│ └── items.test.js
-└── .env
+src/
+├── app.js
+├── auth/
+│ ├── auth.controller.js
+│ ├── auth.routes.js
+│ └── auth.middleware.js
+├── routes/
+│ └── items.routes.js
+├── controllers/
+│ └── items.controller.js
+├── models/
+│ ├── item.model.js
+│ └── user.model.js
+├── data/
+│ └── items.data.js
+tests/
+├── items.test.js
+├── setup.js
+.env
+.gitignore
+package.json
 ```
 
 ## 💻 Installation
