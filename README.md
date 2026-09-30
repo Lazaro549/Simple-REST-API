@@ -64,3 +64,13 @@ package.json
 4. Start the server (production):
    ```bash
    npm start
+
+## 💸 Donations
+
+If you'd like to support this project:
+
+- 🇦🇷 ARS (Argentina)  
+  Alias: `lazaro.503.alaba.mp`
+
+- 🌎 USD (Argentina only, local transfers)  
+  Alias: `ahogada.duras.foca`
